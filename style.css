@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: hsl(185, 75%, 39%);
+}
+
+.pattern-top {
+      position: absolute;
+      right: 50%;
+      bottom: 45%;
+    }
+    .pattern-bottom {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+
+.card-container {
+    width: 370px;
+    height: 370px;
+    background: white;
+    border-radius: 9px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 70px 50px hsl(0, 0%, 59%, 0.2);
+    overflow: hidden;
+    display: inline-block;
+
+}
+
+.upper-container {
+    height: 150px;
+    background: url(/images/bg-pattern-card.svg);
+    border-radius: 9px 9px 0 0;
+}
+
+.image-container {
+    background: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border-style: 2px solid white;
+    padding: 5px;
+    transform: translate(135px, 100px);
+}
+
+.image-container img {
+    background: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border-style: 2px solid white;
+}
+
+.lower-container {
+    height: 270px;
+    background: white;
+    border-radius: 0 0 9px 9px;
+
+}
+
+.personal-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.name-age {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.age {
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.location {
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+.instagram-info {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    height: 20px;
+    bottom: 0px;
+    text-align: center;
+    position: relative;
+    border-top: 1px solid #d3d3d3;
+}
+
+.instagram-info h3, h4 {
+    box-sizing: border-box;
+    line-height: 0.5px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.instagram-info h3 {
+    padding-top: 15px;
+}
+
+.instagram-info h4 {
+    font-weight: 400;
+    font-size: 11px;
+    color: hsl(0, 0%, 59%);
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+    background: white;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: black;
+    z-index: 2;
+}
